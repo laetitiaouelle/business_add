@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,6 +17,7 @@ a {
 
 * {
   box-sizing: border-box;
+  transition: all 200ms ease-in-out;
 }
 
 @media (prefers-color-scheme: dark) {
